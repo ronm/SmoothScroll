@@ -10,7 +10,7 @@
     } else if (typeof module === 'object' && module.exports) {
         module.exports = factory();
     } else {
-        root.smoothScroll = factory();
+        root.SmoothScroll = factory();
   }
 }(this, function () {
 	
