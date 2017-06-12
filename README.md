@@ -29,13 +29,12 @@ new SmoothScroll(400);
 ```
 
 
-Methods
+Options
 -------
 
-Options can be passed to the waybetter function at initialization, otherwise it must be followed by the refresh method.
 
 ```js
-new Waybetter(destination, { direction : "horizontal" });
+new SmoothScroll(destination, { direction : "horizontal" });
 ```
 
 
